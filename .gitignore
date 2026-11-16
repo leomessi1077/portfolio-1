@@ -1,0 +1,22 @@
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+.vercel/
+.claude/
+
+# Environment secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs and local files
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.local
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json

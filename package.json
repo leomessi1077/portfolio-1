@@ -1,0 +1,10 @@
+{
+  "name": "manish-portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "dev:client": "cd client && node ./node_modules/vite/bin/vite.js",
+    "dev:server": "cd server && node server.js",
+    "build": "cd client && node ./node_modules/vite/bin/vite.js build"
+  }
+}
